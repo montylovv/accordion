@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Accordion</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+        <link rel="shortcut icon" type="image/jpg" href="logo.png"/>
+        <link href="styles.css" rel="stylesheet">
+        <style>
+            #sprite {
+                background: url('accSprite.png');
+                width: 500px;
+                height: 500px;
+                margin: auto;
+                animation: sprite 10s steps(51) infinite;
+                animation-play-state: paused;
+            }
+    
+            @keyframes sprite {
+                to { 
+                    background-position: -25500px;
+                }
+            }
+
+            
+        </style>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid" style="background-color: rgb(41, 66, 52); color: white; text-align: center; height: 120px; position: fixed; top: 0%; box-shadow: 0px 0px 10px black;">
+            <div class="row">
+                <div class="col-1">
+                    <img src="logo.png" alt="logo" class="logo">
+                </div>
+                <div class="col-3" style="text-align: left;">
+                    <br>
+                    <a id="name" href="https://musescore.com/user/41810439">
+                        Accordion
+                    </a>
+                </div>
+                <div class="col-2">
+                    <br>
+                    <br>
+                    <a class="play" href="https://musescore.com/user/41810439">Play</a>
+                </div>
+                <div class="col-2">
+                    <br>
+                    <br>
+                    <a class="play" href="https://musescore.com/user/41810439">Forum</a>
+                </div>
+                <!-- if authenticated -->
+                
+            </div>
+        </div>
+        
+
+        <div style="height: 120px;"></div>
+
+
+        <!-- Pop up Box To show email -->
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Email</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    monty.love726@gmail.com
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center;">
+            <div id="sprite" title="Animated Accordion Sprite"></div>
+        </div>
+
+        
+        <div class="container-fluid" style="background-color: rgb(41, 66, 52); color: white; text-align: center; height: 380px; box-shadow: 0px 0px 10px black;">
+            <div class="row">
+                <div class="col-2">
+                    
+                </div>
+                <div class="col-2">
+                    <h6 class="head">Explore</h6>
+                    <div class="pad">
+                        <a href="https://musescore.com/user/41810439" class="btm-thi">Accordion</a>
+                    </div>
+                    <div class="pad">
+                        <a href="https://musescore.com/user/41810439" class="btm-thi">Forum</a>
+                    </div>
+                    <!-- <h6>Accordion</h6>
+                    <h6>Forum</h6> -->
+                    
+                </div>
+                <div class="col-2">
+                    <h6 class="head">About</h6>
+                    <div class="pad">
+                        <a href="https://musescore.com/user/41810439" class="btm-thi">DEMO</a>
+                    </div>
+                    <div class="pad">
+                        <a class="btm-thi">Author</a>
+                    </div>
+                    <div class="pad">
+                        <a class="btm-thi">Credits</a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <h6 class="head">Contact</h6>
+                    <div class="pad">
+                        <a href="#popup1" class="btm-thi">Email</a>
+                    </div>
+                    <div class="pad">
+                        <a href="https://linkedin.com/" target="_blank" class="btm-thi">LinkedIn</a>
+                    </div>
+                    <div class="pad">
+                        <a href="https://github.com/" target="_blank" class="btm-thi">GitHub</a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <h6 class="head">Other</h6>
+                    <div class="pad">
+                        <a class="btm-thi" href="https://musescore.com/user/41810439" target="_blank">Source Code</a>
+                    </div>
+                    <div class="pad">
+                        <a class="btm-thi">Copyright</a>
+                    </div>
+                    <div class="pad">
+                        <a class="btm-thi">ʕ•ᴥ•ʔ</a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    
+                </div>
+            </div>
+            <div style="text-align: left; padding-left: 2%;">
+                <img src="IMG-0146.png" alt="avatar" class="avatar">
+                <br>
+                <br>
+                <span style="font-family:monospace; text-align: left;">&copy2021 <a href="https://musescore.com/user/41810439" target="_blank" class="inerthover">montylov</a></span>
+            </div>
+        </div>
+    </body>
+</html>

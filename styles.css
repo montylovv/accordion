@@ -1,0 +1,137 @@
+body {
+    background-color: #ffd700;
+    min-height: 120vh;
+}
+
+h1 {
+    font-size: 10vw;
+    text-align: center;
+    font-weight: 500;
+    padding: 5%;
+}
+
+.logo {
+    height: 6vw;
+}
+
+#name {
+    font-family: 'Monoton', serif;
+    font-size: 3vw;
+    color: whitesmoke;
+    text-shadow: 0.5vw 0.5vw 0.5vw rgb(90, 255, 118);
+}
+
+#name:hover {
+    color: rgb(90, 255, 118);
+    text-shadow: none;
+    text-decoration: none;
+}
+
+.play {
+    font-family: 'Monoton', serif;
+    font-size: 2vw;
+    color: white;
+}
+
+.play:hover {
+    text-decoration: none;
+    color: lightgreen;
+}
+
+.me {
+    color: white;
+    font-size: 1vw;
+}
+
+.me:hover {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.head {
+    color: rgb(195, 195, 195);
+    padding-top: 5%;
+}
+
+.pad {
+    padding-top: 11%;
+    color: white;
+}
+
+.btm-thi {
+    font-weight: 500;
+    color: white;
+}
+
+.btm-thi:hover {
+    text-decoration: none;
+    color: wheat;
+}
+
+.avatar {
+    height: 5vw;
+}
+
+.inerthover {
+    color: white;
+}
+
+.inerthover:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: darkslategrey;
+    font-family: 'Monoton', serif;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #06D85F;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+    font-family: serif;
+    color: darkslategrey;
+}
